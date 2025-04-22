@@ -1,8 +1,10 @@
 const { NextResponse } = require("next/server")
 
-export const config = {
-    runtime: 'edge'
-}
+// export const config = {
+//     runtime: 'edge'
+// }
+
+export const runtime = "edge";
 
 const handler = (req) => {
     return NextResponse.json({
